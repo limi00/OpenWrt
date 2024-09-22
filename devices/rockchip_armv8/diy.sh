@@ -21,7 +21,7 @@ wget -N https://github.com/istoreos/istoreos/raw/istoreos-22.03/target/linux/roc
 
 wget -N https://github.com/immortalwrt/immortalwrt/raw/master/include/kernel-6.6 -P include/
 
-rm -rf target/linux/generic/hack-6.6/{410-block-fit-partition-parser.patch,724-net-phy-aquantia*,720-net-phy-add-aqr-phys.patch} package/network/utils/xdp-tools
+rm -rf target/linux/generic/hack-6.6/{410-block-fit-partition-parser.patch,724-net-phy-aquantia*,720-net-phy-add-aqr-phys.patch}
 
 sed -i "/KernelPackage,ptp/d" package/kernel/linux/modules/other.mk
 
